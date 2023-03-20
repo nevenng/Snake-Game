@@ -1,0 +1,31 @@
+body {
+    width:100vw;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    margin: 0;
+    background-color: #ffd1dc;
+    
+}
+
+.gameBoard {
+    width: 75vmin;
+    height: 75vmin;
+    margin-top:10vh;
+    background-color:#f4bfd4;
+    display:grid;
+    grid-template-columns: repeat(21, 1fr);
+    grid-template-rows: repeat(21, 1fr);
+}
+
+.snake {
+    background-color: aqua;
+    border:.25vmin solid black;
+
+}
+
+.apple {
+    background-color: red;
+    border:.25vmin solid black;
+
+}
