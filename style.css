@@ -1,31 +1,25 @@
 body {
-    width:100vw;
-    height:100vh;
+    
     display:flex;
+    flex-direction: column;
     justify-content: center;
-    margin: 0;
+    align-items:center;
     background-color: #ffd1dc;
     
 }
 
-.gameBoard {
-    width: 75vmin;
-    height: 75vmin;
-    margin-top:10vh;
-    background-color:#f4bfd4;
-    display:grid;
-    grid-template-columns: repeat(21, 1fr);
-    grid-template-rows: repeat(21, 1fr);
+#start-button{
+   margin-left:30%;
+    
 }
 
-.snake {
-    background-color: aqua;
-    border:.25vmin solid black;
-
+#restart{
+    visibility: hidden;
+    margin-top:5vh;
+    padding:15px;
 }
 
-.apple {
-    background-color: red;
-    border:.25vmin solid black;
-
+canvas {
+    height: 40%;
+    width: 40%;
 }
